@@ -1,0 +1,67 @@
+.sidebar-right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #CCCCCC;
+	background: #000;
+	background-size: cover;
+	height: 100%;
+	padding-bottom: 150px;
+	max-width: 386px;
+}
+.friend-activity-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 370px;
+	padding: 29px 20px 39px;
+	background: transparent;
+}
+.friend-activity-header p {
+	margin-right: 73px;
+}
+.friend-activity-header div {
+	display: flex;
+	align-items: center;
+	gap: 19px;
+}
+.friend-activity-header div img:last-child{
+	height: 18px;
+}
+.friend-activity-header div img {
+	cursor: pointer;
+}
+/* .closing-cross {
+
+} */
+.friend-activity-main {
+	width: 370px;
+	background: transparent;
+	padding: 0px 20px 39px;
+}
+.friend-activity-main p {
+	margin-bottom: 23px;
+}
+.friend-activity-main .friend {
+	display: flex;
+	gap: 15px;
+	margin-bottom: 21px;
+	cursor: pointer;
+}
+.friend-activity-main .button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 233px;
+	height: 62px;
+	margin: 0 auto;
+	background: #fff;
+	color: #171717;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	border-radius: 40px;
+	cursor: pointer;
+}
+.friend-activity-main .button:hover {
+	background: rgba(255, 255, 255, 0.9);
+}

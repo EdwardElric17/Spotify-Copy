@@ -1,0 +1,24 @@
+@font-face {
+	font-family: 'CircularStd';
+	src: url(fonts/CircularStd-Medium.woff2) format(woff2);
+}
+*, 
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'CircularStd', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+}
+body {
+	/* display: grid;
+	grid-template-rows: auto 112px; */
+	height: 100%;
+  	width: 100%;
+}
+.content {
+	display: grid;
+	grid-template-columns: 310px auto 346px;
+}
