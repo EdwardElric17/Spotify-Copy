@@ -5,14 +5,14 @@
 	justify-content: space-between;
 	background-color: #000000;
 	height: 100%;
-	padding-bottom: 118px;
+	width: 100%;
+	padding: 70px 48px 118px 30px;
 }
 .rectangle-top {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-	padding: 70px 48px 0px 30px;
-	width: 310px;
+	margin-bottom: 22px;
 	background: transparent;
 	color: #B3B3B3;
 }
@@ -38,18 +38,17 @@
 	padding-bottom: 20px;
 	border-bottom: 1px solid #282828;
 }
-.sidebar-left hr {
-	margin: 20px auto 1px;
+/* .sidebar-left hr {
+	margin: 20px auto 22px;
 	width: 250px;
 	height: 1px;
 	background: #282828;
 	border: none;
-}
+} */
 .rectangle-bottom {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-	padding: 21px 39px 0px 30px;
 	background: transparent;
 	color: #fff;
 	width: 310px;
